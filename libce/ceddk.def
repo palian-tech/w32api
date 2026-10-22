@@ -1,0 +1,6 @@
+; ceddk.dll: the CE device driver kit helpers that applications use to
+; map physical memory.
+LIBRARY ceddk
+EXPORTS
+MmMapIoSpace
+MmUnmapIoSpace
